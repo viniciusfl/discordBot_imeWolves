@@ -1,2 +1,2 @@
-# discordBot_imeWolves
+# Discord bot IME Wolves 
 

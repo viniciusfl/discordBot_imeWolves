@@ -4,9 +4,9 @@ import re
 def handle_response(message) -> str:
     p_message = message.lower()
 
-    if re.match("a*[au]u", p_message):
-        f = int(5*random())
-        s = int(10*random())
+    if re.match("a(a|u)*u", p_message):
+        f = int(5*random()+1)
+        s = int(10*random()+1)
 
         msg = "a"*f + "u"*s
         return msg
